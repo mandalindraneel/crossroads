@@ -418,14 +418,14 @@ prohibited under applicable law.
 18.1 This Agreement, and any dispute, claim, or controversy arising out of or
 relating to this Agreement or the Software (whether in contract, tort, or
 otherwise), shall be governed by and construed in accordance with the laws of
-[INSERT GOVERNING JURISDICTION - e.g., the Republic of India], without giving
-effect to any choice-of-law or conflict-of-law provision or rule that would
-cause the application of the laws of any other jurisdiction.
+the Republic of India, without giving effect to any choice-of-law or
+conflict-of-law provision or rule that would cause the application of the laws of
+any other jurisdiction.
 
 18.2 The parties irrevocably submit to the exclusive jurisdiction of, and agree
-that exclusive venue shall lie in, the courts located in [INSERT CITY, STATE OR
-PROVINCE, AND COUNTRY], and each party waives any objection to such jurisdiction
-or venue, including any objection based on inconvenient forum.
+that exclusive venue shall lie in, the courts of competent jurisdiction located
+in Kolkata, West Bengal, India, and each party waives any objection to such
+jurisdiction or venue, including any objection based on inconvenient forum.
 
 18.3 The United Nations Convention on Contracts for the International Sale of
 Goods shall not apply to this Agreement.
@@ -521,10 +521,11 @@ and the rule of contra proferentem shall not apply.
 28. CONTACT INFORMATION
 
 28.1 All questions, requests for permission, and notices concerning this
-Agreement or the Software should be directed to the Licensor:
-
-      Indraneel Mandal
-      [INSERT EMAIL ADDRESS OR OTHER CONTACT CHANNEL]
+Agreement or the Software should be directed to the Licensor, Indraneel Mandal,
+through the contact facility, issue tracker, or other contact channel made
+available in connection with the source-code repository on or through which the
+Software is made available, or through such other channel as the Licensor may
+from time to time designate.
 
 
 BY ACCESSING, VIEWING, DOWNLOADING, COPYING, INSTALLING, EXECUTING, OR OTHERWISE
