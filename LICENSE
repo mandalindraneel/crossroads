@@ -1,536 +1,514 @@
+CROSSROADS
 PROPRIETARY SOFTWARE LICENSE AGREEMENT
 
-Software: Crossroads
 Copyright (c) 2026 Indraneel Mandal. All Rights Reserved.
 
-IMPORTANT - READ CAREFULLY. This Proprietary Software License Agreement (the
-"Agreement") is a legally binding instrument between you, whether acting as an
-individual or on behalf of a single legal entity ("You", "Your", or the
-"Licensee"), and Indraneel Mandal, the sole author and owner of the software
-application known as "Crossroads" (the "Licensor", "Author", or the "Owner").
-The Software is licensed, not sold. By accessing, viewing, browsing,
-downloading, cloning, forking, copying, reproducing, compiling, installing,
-executing, running, deploying, or otherwise interacting with the Software or
-any portion, component, or derivative thereof, You acknowledge that You have
-read this Agreement, that You understand it, and that You agree to be bound by
-each and every one of its terms and conditions. IF YOU DO NOT AGREE TO ALL OF
-THE TERMS AND CONDITIONS OF THIS AGREEMENT, YOU ARE NOT AUTHORIZED TO AND MUST
-NOT ACCESS, VIEW, DOWNLOAD, COPY, INSTALL, EXECUTE, OR USE THE SOFTWARE IN ANY
-MANNER OR FOR ANY PURPOSE.
+IMPORTANT — READ CAREFULLY. This Proprietary Software License Agreement
+(the "Agreement") is a legally binding agreement between you, whether an
+individual or a single legal entity ("You", "Your", or the "Licensee"), and
+Indraneel Mandal, the sole author and owner of the software application known
+as "Crossroads" (the "Licensor", "Author", "I", or "me"). This Agreement
+governs Your access to and use of the Software (as defined below).
 
+BY DOWNLOADING, COPYING, CLONING, ACCESSING, VIEWING, INSTALLING, EXECUTING,
+RUNNING, OR OTHERWISE USING THE SOFTWARE OR ANY PART OF IT, YOU ACKNOWLEDGE
+THAT YOU HAVE READ THIS AGREEMENT, THAT YOU UNDERSTAND IT, AND THAT YOU AGREE
+TO BE BOUND BY ALL OF ITS TERMS AND CONDITIONS. IF YOU DO NOT AGREE TO EVERY
+TERM AND CONDITION OF THIS AGREEMENT, YOU ARE NOT AUTHORIZED TO AND MUST NOT
+DOWNLOAD, COPY, ACCESS, INSTALL, EXECUTE, RUN, OR USE THE SOFTWARE IN ANY WAY,
+AND YOU MUST IMMEDIATELY AND PERMANENTLY DELETE AND DESTROY ALL COPIES OF IT IN
+YOUR POSSESSION OR CONTROL.
 
+================================================================================
 1. DEFINITIONS
+================================================================================
 
-1.1 "Software" means the computer program and application known as
-"Crossroads", in any and all forms and media, including without limitation the
-Source Code and the Object Code, together with all files, modules, scripts,
-stylesheets, markup, images, icons, fonts insofar as owned or created by the
-Licensor, data, seed data, embedded constants, configuration, user interfaces,
-audiovisual elements, "look and feel", algorithms, methods of operation,
-structure, sequence, organization, and all associated Documentation, as well as
-any and all Updates, upgrades, patches, bug fixes, enhancements, modifications,
-revisions, and successor versions thereto that the Licensor may make available.
+1.1  "Software" means the computer program known as "Crossroads", in any and all
+     forms and media, including without limitation the Source Code, the Object
+     Code, the user interface, the visual design, the layout, the structure,
+     the "look and feel", the algorithms, the formulae, the calculation logic,
+     the data models, the text and copy, the icons, the graphics, the audio,
+     the configuration files, and any and all accompanying Documentation, as
+     well as any Updates thereto provided by the Licensor.
 
-1.2 "Source Code" means the human-readable form of the Software, including all
-programming-language statements, comments, build and configuration files, and
-related materials from which the Object Code may be produced or which may be
-executed by an interpreter or runtime environment.
+1.2  "Source Code" means the human-readable form of the Software, including the
+     HTML, CSS, JavaScript, and any other source files, comments, and build or
+     configuration assets that constitute or accompany the Software.
 
-1.3 "Object Code" means the machine-executable or interpreter-executable form
-of the Software, including any minified, bundled, transpiled, compiled, or
-otherwise processed form derived from the Source Code.
+1.3  "Object Code" means the compiled, interpreted, minified, transpiled, or
+     otherwise machine-executable or machine-processable form of the Software.
 
-1.4 "Documentation" means any and all user manuals, technical specifications,
-descriptions, "read me" files, instructions, and other written, electronic, or
-online materials that describe, accompany, or relate to the Software.
+1.4  "Documentation" means any user guides, instructions, descriptions, "read
+     me" files, in-application help text, or other explanatory materials that
+     accompany or describe the Software, in any form or medium.
 
-1.5 "Intellectual Property Rights" means any and all rights, titles, and
-interests, whether now existing or hereafter arising, throughout the world, in
-and to any and all (a) copyrights and copyrightable works, including moral
-rights; (b) trademarks, service marks, trade names, trade dress, logos, and the
-goodwill associated therewith; (c) patents, patent applications, and rights in
-inventions; (d) trade secrets, know-how, and Confidential Information; (e)
-database rights and rights in compilations; and (f) any and all other
-proprietary or intellectual property rights of any kind or nature, together
-with all registrations, applications, renewals, extensions, continuations, and
-reissues of any of the foregoing.
+1.5  "Repository" means the official source-code repository or distribution
+     channel through which the Licensor makes the Software available, together
+     with any issue tracker, contact information, or notices published therein.
 
-1.6 "Derivative Work" means any work, in any form or medium, that is based upon,
-derived from, incorporates, adapts, transforms, translates, modifies, or
-otherwise uses all or any part of the Software, including any revision,
-enhancement, modification, port, adaptation, abridgement, condensation,
-expansion, or any other form in which the Software may be recast, transformed,
-or adapted.
+1.6  "Intellectual Property Rights" means any and all rights, titles, and
+     interests, whether now existing or hereafter arising and whether registered
+     or unregistered, in and to any copyrights, moral rights, database rights,
+     patents and patent applications, trademarks, service marks, trade names,
+     trade dress, trade secrets, know-how, design rights, and any other
+     intellectual or proprietary rights recognized under the laws of any
+     jurisdiction anywhere in the world.
 
-1.7 "Distribute" or "Distribution" means to sell, resell, license, sublicense,
-publish, transmit, lend, lease, rent, share, disclose, make available, host,
-provide access to, communicate to the public, or otherwise convey or transfer,
-directly or indirectly, in whole or in part, by any means now known or
-hereafter devised, to any third party.
+1.7  "Derivative Work" means any work that is based upon, derived from, adapted
+     from, translated from, modified from, or that otherwise incorporates,
+     reproduces, or is substantially similar to the Software or any part of it,
+     including any revision, enhancement, modification, port, fork, adaptation,
+     or extension of the Software.
 
-1.8 "Hosting Platform" means any third-party code-hosting, version-control, or
-distribution service (for example and without limitation, a public or private
-source-code repository) on or through which the Licensor may, at the Licensor's
-sole discretion, make the Source Code visible for reference.
+1.8  "Authorized Device" means a personal computing device, such as a personal
+     computer, laptop, tablet, or smartphone, that is owned or lawfully
+     controlled by You and that You use solely for Your own Personal Use.
 
-1.9 "Effective Date" means the earliest date on which You first access, view,
-download, copy, install, execute, or otherwise use the Software.
+1.9  "Personal Use" means use by a single natural person, for that person's own
+     private, non-commercial, and non-production purposes only.
 
+1.10 "Commercial Use" means any use that is intended for or directed toward
+     commercial advantage, monetary compensation, or any business, professional,
+     governmental, organizational, or production purpose, including without
+     limitation use within or on behalf of any company, firm, or institution.
 
-2. ACKNOWLEDGEMENT AND ACCEPTANCE
+1.11 "Output" means any result, calculation, projection, estimate, chart,
+     figure, report, or other information generated by the Software based upon
+     the inputs and assumptions that You supply.
 
-2.1 The Software is proprietary, confidential, and commercially valuable to the
-Licensor and is protected by copyright and other intellectual property laws and
-international treaty provisions.
+1.12 "Updates" means any patch, bug fix, correction, enhancement, improvement,
+     modification, new version, or new release of the Software that the Licensor
+     may, in its sole discretion, choose to make available.
 
-2.2 The fact that the Source Code may be visible, readable, or accessible on a
-Hosting Platform does not constitute, and shall not be construed as, a
-publication of the Software for unrestricted use, a dedication of the Software
-to the public, a waiver of any Intellectual Property Rights, or the grant of any
-open-source, free-software, or similar license. No such license is granted, and
-none shall be implied, by the visibility or accessibility of the Source Code.
+1.13 "Effective Date" means the earlier of (a) the date on which You first
+     access, download, copy, install, execute, run, or use the Software, or
+     (b) the date on which You first accept this Agreement.
 
-2.3 This Agreement governs Your access to and use of the Software and supersedes
-any conflicting terms that may be presented by, associated with, or implied by
-any Hosting Platform, except to the extent that such platform's terms of service
-are mandatorily applicable as between You and the operator of that platform.
+================================================================================
+2. OWNERSHIP AND PROPRIETARY RIGHTS
+================================================================================
 
+2.1  The Software is the original work of authorship of the Licensor and is
+     proprietary and confidential. The Software is protected by copyright law
+     and other Intellectual Property Rights laws of the Republic of India and by
+     international treaties, including without limitation the Berne Convention
+     for the Protection of Literary and Artistic Works and the Agreement on
+     Trade-Related Aspects of Intellectual Property Rights (TRIPS).
 
-3. OWNERSHIP AND TITLE
+2.2  The Software is LICENSED, NOT SOLD. The Licensor retains and reserves all
+     right, title, and interest in and to the Software and all copies thereof,
+     including without limitation all Intellectual Property Rights therein. No
+     ownership interest of any kind is transferred to You under this Agreement.
 
-3.1 The Software is and shall at all times remain the sole and exclusive
-property of the Licensor. The Licensor owns and retains all right, title, and
-interest in and to the Software, including all Intellectual Property Rights
-therein and thereto, and including all copies, portions, components, and
-Derivative Works thereof, regardless of who created or contributed to any such
-copy, portion, component, or Derivative Work.
+2.3  You acquire no rights in or to the Software other than the limited rights
+     expressly and unambiguously granted to You in Section 3 of this Agreement.
 
-3.2 This Agreement does not effect any sale, assignment, or transfer of the
-Software or of any Intellectual Property Rights therein to You. You acquire no
-ownership interest in or to the Software under or by virtue of this Agreement.
+2.4  The name "Crossroads", together with any associated logos, marks, designs,
+     and branding used in connection with the Software, are the property of the
+     Licensor. Nothing in this Agreement grants You any right or license to use
+     any such names, logos, marks, designs, or branding.
 
-3.3 All rights not expressly and unambiguously granted to You in writing under
-this Agreement are reserved by and to the Licensor.
+================================================================================
+3. GRANT OF LIMITED LICENSE
+================================================================================
 
+3.1  Subject to Your strict and continuing compliance with each and every term
+     and condition of this Agreement, the Licensor grants to You a limited,
+     personal, revocable, non-exclusive, non-transferable, non-sublicensable,
+     non-assignable, royalty-free license, during the term of this Agreement,
+     solely to:
 
-4. RESERVATION OF ALL RIGHTS; NO IMPLIED LICENSES
+     (a) view and read the Source Code of the Software where and to the extent
+         the Licensor has lawfully made such Source Code available to You; and
 
-4.1 ALL RIGHTS ARE RESERVED. No license, right, immunity, or interest of any
-kind is granted to You under this Agreement, whether by implication, estoppel,
-exhaustion, statute, course of dealing, course of performance, usage of trade,
-or otherwise, except for the limited permissions, if any, that are expressly set
-forth in Section 5 or that the Licensor may grant to You by separate, signed,
-written instrument.
+     (b) install and run one (1) copy of the Software, in its unmodified form,
+         on an Authorized Device, solely for Your own Personal Use and solely
+         for the purposes of private, non-commercial evaluation and operation.
 
-4.2 Without limiting the generality of the foregoing, no rights are granted with
-respect to any patent, copyright, trademark, trade secret, or other
-Intellectual Property Right of the Licensor except as expressly stated herein.
+3.2  The license granted in Section 3.1 is conditioned upon and limited by all
+     of the restrictions set out in Section 4 and elsewhere in this Agreement.
 
+3.3  No license, right, or interest in or to the Software is granted to You by
+     implication, estoppel, exhaustion, or otherwise, except for the limited
+     license expressly granted in Section 3.1.
 
-5. LIMITED PERMISSIONS
+================================================================================
+4. RESTRICTIONS AND RESERVATION OF RIGHTS
+================================================================================
 
-5.1 Subject to Your strict and continuing compliance with each term and
-condition of this Agreement, and solely for so long as this Agreement remains in
-effect, the Licensor grants You a personal, non-exclusive, non-transferable,
-non-sublicensable, revocable, and limited permission to view and read the
-Source Code as displayed on a Hosting Platform, for the sole and exclusive
-purpose of personal, non-commercial evaluation and reference.
+4.1  RESERVATION. ALL RIGHTS NOT EXPRESSLY GRANTED TO YOU IN THIS AGREEMENT ARE
+     RESERVED IN FULL BY THE LICENSOR.
 
-5.2 The limited permission set forth in Section 5.1 does not include, and shall
-not be construed to include, any right to copy, reproduce, download other than
-as strictly incidental to ordinary browsing, store, retain, execute, deploy,
-modify, distribute, or make any other use of the Software.
+4.2  PROHIBITED ACTS. Except only to the limited extent expressly permitted by
+     Section 3.1, and notwithstanding anything to the contrary, You shall NOT,
+     and shall not permit, enable, assist, or authorize any third party to, do
+     any of the following:
 
-5.3 Any use of the Software beyond the limited permission expressly set forth in
-Section 5.1 requires the prior, express, specific, written consent of the
-Licensor, which consent the Licensor may grant, condition, withhold, or revoke
-in the Licensor's sole and absolute discretion. Any permission so granted shall
-be limited to the precise scope stated in the writing granting it.
+     (a) copy, reproduce, duplicate, store, cache (other than ordinary technical
+         caching strictly necessary to run the Software on an Authorized Device),
+         or make any backup of the Software or any part of it;
 
+     (b) modify, adapt, alter, translate, revise, enhance, or otherwise change
+         the Software, or create, develop, or produce any Derivative Work;
 
-6. RESTRICTIONS ON USE
+     (c) distribute, publish, post, upload, share, transmit, communicate to the
+         public, make available, sell, resell, offer for sale, rent, lease,
+         lend, sublicense, assign, transfer, host, mirror, syndicate, or
+         otherwise provide the Software, in whole or in part, to any third party
+         or on any network, server, marketplace, or platform;
 
-Except only to the extent expressly permitted under Section 5 or under a
-separate signed written agreement with the Licensor, and except only to the
-extent that the following restrictions are prohibited by applicable mandatory
-law, You shall NOT, and shall not permit, enable, authorize, encourage, or
-assist any third party to, directly or indirectly:
+     (d) reverse engineer, decompile, disassemble, decrypt, extract, or
+         otherwise attempt to derive or reconstruct the Source Code, underlying
+         ideas, algorithms, file formats, structure, or organization of any part
+         of the Software provided only in Object Code form, except and only to
+         the precise extent that this restriction is expressly prohibited by
+         applicable mandatory law;
 
-6.1 copy, reproduce, duplicate, photograph, transcribe, or otherwise make any
-copies of the Software or any portion thereof, in whole or in part, in any form
-or medium;
+     (e) remove, obscure, alter, disable, deface, or fail to reproduce any
+         copyright notice, proprietary legend, attribution, watermark, or other
+         notice of Intellectual Property Rights contained in or on the Software;
 
-6.2 modify, alter, adapt, translate, revise, enhance, abridge, condense, or
-otherwise change the Software, or create, develop, or prepare any Derivative
-Work based upon the Software or any portion thereof;
+     (f) use the Software, in whole or in part, for any Commercial Use, or to
+         provide any service to any third party, including without limitation on
+         a service-bureau, software-as-a-service, hosting, time-sharing, or
+         outsourcing basis;
 
-6.3 Distribute, publish, sell, resell, license, sublicense, lease, rent, lend,
-assign, transfer, pledge, or otherwise convey or make available the Software or
-any portion thereof, or any copy or Derivative Work thereof, to any third party;
+     (g) use the Software, or any portion, idea, design, structure, or output
+         thereof, to design, develop, build, train, market, or operate any
+         product, service, or work that competes with or is substantially
+         similar to the Software;
 
-6.4 host, operate, deploy, or make the Software available as or through a
-hosted, "software-as-a-service", application-service-provider, time-sharing,
-service-bureau, subscription, or similar arrangement, or otherwise use the
-Software to provide services to, or for the benefit of, any third party;
+     (h) use the Software, its Source Code, its Output, or any part of it as
+         data, input, or material to train, fine-tune, evaluate, develop, or
+         improve any artificial-intelligence, machine-learning, large-language,
+         generative, or statistical model, system, or dataset;
 
-6.5 use the Software, or permit the Software to be used, for or in connection
-with any commercial purpose, revenue-generating activity, or production
-environment, in each case without the prior written consent of the Licensor;
+     (i) conduct or publish any benchmark, performance, or comparison test of
+         the Software, or any review that reproduces its Source Code, without
+         the prior written consent of the Licensor;
 
-6.6 reverse engineer, decompile, disassemble, deobfuscate, decrypt, or otherwise
-attempt to derive, reconstruct, or discover the source, structure, ideas,
-algorithms, or methods of operation of any portion of the Software that is
-provided in Object Code form, except and only to the precise extent that such
-activity is expressly permitted by applicable mandatory law notwithstanding this
-prohibition;
+     (j) circumvent, disable, bypass, or interfere with any security feature,
+         access control, usage restriction, or technical limitation of the
+         Software;
 
-6.7 remove, alter, obscure, deface, suppress, or fail to reproduce any
-copyright, trademark, confidentiality, proprietary, attribution, or other notice,
-legend, marking, or identification appearing in, on, or in connection with the
-Software, including the notice set forth in any header of any file of the
-Software;
+     (k) use the Software in any manner that infringes the Intellectual Property
+         Rights or other rights of the Licensor or any third party, or that
+         violates any applicable law, statute, regulation, or rule; or
 
-6.8 use any name, trademark, service mark, trade name, logo, or other indicia of
-origin of the Licensor, or any confusingly similar designation, for any purpose,
-including in connection with any product, service, advertisement, endorsement,
-or Derivative Work, without the prior written consent of the Licensor;
+     (l) represent, claim, or imply that You are the author, owner, or
+         originator of the Software, or that You created or developed it.
 
-6.9 use the Software for the purpose of competitive analysis, benchmarking, or
-the development, marketing, sale, or provision of any product or service that
-competes with the Software;
+4.3  Any use of the Software outside the scope of the limited license granted in
+     Section 3.1, and any act prohibited by Section 4.2, constitutes a material
+     breach of this Agreement and an infringement of the Licensor's Intellectual
+     Property Rights.
 
-6.10 use the Software, or any data, output, structure, or expression derived
-therefrom, to train, fine-tune, calibrate, evaluate, or otherwise develop or
-improve any artificial-intelligence model, machine-learning system, large
-language model, or similar technology;
+================================================================================
+5. THIRD-PARTY MATERIALS
+================================================================================
 
-6.11 scrape, harvest, crawl, index, mirror, frame, or systematically retrieve or
-collect the Software or any portion thereof by any automated or manual means;
+5.1  The Software may reference, link to, or load typefaces, fonts, or other
+     resources that are provided by third parties (for example, web fonts served
+     by a third-party font-delivery service). Any such third-party materials are
+     the property of their respective owners and are governed by their own
+     separate license terms (which may include, without limitation, the SIL Open
+     Font License or the Apache License).
 
-6.12 circumvent, disable, bypass, or interfere with any license-management,
-security, access-control, usage-monitoring, or other protective measure or
-feature of or relating to the Software;
+5.2  The Licensor grants You no rights whatsoever in or to any such third-party
+     materials, makes no representation or warranty regarding them, and accepts
+     no responsibility or liability for them. You are solely responsible for
+     reviewing and complying with all applicable third-party license terms.
 
-6.13 use the Software in any manner that infringes, misappropriates, or violates
-any Intellectual Property Right or other right of the Licensor or of any third
-party, or that violates any applicable law, statute, regulation, or rule; or
+5.3  Except for such referenced third-party materials, the Software does not
+     incorporate any third-party source code, and all of the Software's own
+     code is the original work of the Licensor.
 
-6.14 use the Software in or in connection with any application or environment in
-which the failure or malfunction of the Software could reasonably be expected to
-lead to death, personal injury, or severe physical, financial, or environmental
-damage.
+================================================================================
+6. FEEDBACK
+================================================================================
 
+6.1  If You provide the Licensor with any suggestions, comments, ideas, bug
+     reports, feature requests, or other feedback relating to the Software
+     ("Feedback"), You hereby irrevocably assign to the Licensor all right,
+     title, and interest in and to such Feedback and grant the Licensor a
+     perpetual, irrevocable, worldwide, royalty-free, fully paid-up,
+     sublicensable, and transferable right to use, reproduce, modify, and
+     otherwise exploit such Feedback for any purpose, without any obligation,
+     attribution, or compensation to You.
 
+================================================================================
 7. CONFIDENTIALITY
-
-7.1 The Software, including without limitation the Source Code, its structure,
-organization, algorithms, methods of operation, and any non-public information
-relating thereto, constitutes the confidential information and valuable trade
-secrets of the Licensor (collectively, "Confidential Information").
-
-7.2 You shall hold the Confidential Information in strict confidence, shall not
-disclose the Confidential Information to any third party, and shall not use the
-Confidential Information except as expressly permitted under this Agreement. You
-shall protect the Confidential Information using at least the same degree of care
-that You use to protect Your own confidential information of like importance, and
-in no event less than a reasonable degree of care.
-
-7.3 The obligations of confidentiality set forth in this Section 7 shall not
-apply to information that You can demonstrate by competent written evidence (a)
-was rightfully in Your possession without restriction prior to disclosure by the
-Licensor; (b) is or becomes generally available to the public through no act or
-omission of You; or (c) is rightfully received by You from a third party without
-restriction and without breach of any obligation of confidentiality. For the
-avoidance of doubt, the visibility of the Source Code on a Hosting Platform shall
-not, of itself, cause the Software to be deemed "generally available to the
-public" for the purposes of this Section.
-
-
-8. FEEDBACK
-
-8.1 If You provide to the Licensor any suggestions, comments, ideas, bug
-reports, feature requests, or other feedback relating to the Software
-("Feedback"), You hereby irrevocably assign to the Licensor, and agree to assign
-to the Licensor, all right, title, and interest in and to such Feedback, and the
-Licensor shall be free to use, disclose, reproduce, modify, license, and
-otherwise exploit such Feedback for any purpose whatsoever, without restriction,
-attribution, accounting, or compensation to You.
-
-
-9. THIRD-PARTY MATERIALS
-
-9.1 The Software may interoperate with, reference, link to, or load materials,
-fonts, libraries, services, or other components that are provided by third
-parties and that are not owned by the Licensor ("Third-Party Materials").
-Third-Party Materials are not part of the Software licensed under this Agreement
-and are governed by the respective terms, licenses, and policies of their
-respective owners or providers.
-
-9.2 The Licensor makes no representation or warranty of any kind with respect to
-any Third-Party Materials and shall have no liability or obligation with respect
-thereto. Your use of any Third-Party Materials is solely at Your own risk and is
-subject to the applicable third-party terms. You are solely responsible for
-reviewing and complying with all such third-party terms.
-
-
-10. NO FINANCIAL, INVESTMENT, TAX, OR LEGAL ADVICE
-
-10.1 The Software is provided for general informational and educational purposes
-only. Any figures, projections, estimates, simulations, comparisons,
-recommendations, or other outputs produced by or through the Software
-(collectively, "Outputs") are illustrative and hypothetical in nature, are based
-on assumptions and inputs that may not reflect actual conditions, and may be
-inaccurate, incomplete, or unsuitable for Your particular circumstances.
-
-10.2 The Outputs do not constitute, and shall not be relied upon as, financial,
-investment, accounting, tax, legal, or other professional advice, and neither
-the Software nor the Licensor is acting as a fiduciary, broker, dealer,
-investment adviser, financial planner, or other regulated professional. You
-should consult a qualified professional before making any financial or other
-decision. The Licensor shall have no liability whatsoever for any decision made
-or action taken or not taken by You or any third party in reliance, whether in
-whole or in part, upon the Software or any Output.
-
-
-11. DISCLAIMER OF WARRANTIES
-
-11.1 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND
-DEFECTS, AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED BY
-APPLICABLE LAW, THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, REPRESENTATIONS,
-AND CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE,
-INCLUDING WITHOUT LIMITATION ANY IMPLIED WARRANTIES OR CONDITIONS OF
-MERCHANTABILITY, MERCHANTABLE QUALITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE,
-QUIET ENJOYMENT, ACCURACY, AND NON-INFRINGEMENT, AND ANY WARRANTIES ARISING OUT
-OF COURSE OF DEALING, COURSE OF PERFORMANCE, USAGE, OR TRADE PRACTICE.
-
-11.2 WITHOUT LIMITING THE FOREGOING, THE LICENSOR MAKES NO WARRANTY OR
-REPRESENTATION THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION
-OF THE SOFTWARE WILL BE UNINTERRUPTED, TIMELY, SECURE, OR ERROR-FREE, THAT
-DEFECTS WILL BE CORRECTED, THAT THE SOFTWARE OR ANY OUTPUT IS ACCURATE,
-RELIABLE, OR COMPLETE, OR THAT THE SOFTWARE IS FREE OF VIRUSES OR OTHER HARMFUL
-COMPONENTS.
-
-11.3 SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES OR
-CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU. IN SUCH CASE,
-SUCH WARRANTIES ARE LIMITED TO THE MINIMUM SCOPE AND DURATION PERMITTED BY
-APPLICABLE MANDATORY LAW.
-
-
-12. LIMITATION OF LIABILITY
-
-12.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
-LICENSOR BE LIABLE TO YOU OR TO ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL,
-SPECIAL, CONSEQUENTIAL, EXEMPLARY, PUNITIVE, OR AGGRAVATED DAMAGES WHATSOEVER, OR
-FOR ANY LOSS OF PROFITS, REVENUE, SAVINGS, BUSINESS, GOODWILL, DATA, OR USE, OR
-FOR ANY FINANCIAL OR INVESTMENT LOSS, IN EACH CASE ARISING OUT OF OR RELATING TO
-THIS AGREEMENT OR THE SOFTWARE OR THE USE OF OR INABILITY TO USE THE SOFTWARE,
-WHETHER BASED ON CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR ANY
-OTHER LEGAL OR EQUITABLE THEORY, AND WHETHER OR NOT THE LICENSOR HAS BEEN ADVISED
-OF OR COULD HAVE FORESEEN THE POSSIBILITY OF SUCH DAMAGES.
-
-12.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOTAL AGGREGATE
-LIABILITY OF THE LICENSOR ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE
-SOFTWARE, FROM ALL CAUSES OF ACTION AND UNDER ALL THEORIES OF LIABILITY, SHALL
-NOT EXCEED THE GREATER OF (A) THE TOTAL AMOUNT, IF ANY, ACTUALLY PAID BY YOU TO
-THE LICENSOR FOR THE SOFTWARE DURING THE TWELVE (12) MONTHS IMMEDIATELY PRECEDING
-THE EVENT GIVING RISE TO THE CLAIM, OR (B) ONE UNITED STATES DOLLAR (USD 1.00).
-
-12.3 THE LIMITATIONS AND EXCLUSIONS IN THIS SECTION 12 APPLY NOTWITHSTANDING THE
-FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY AND FORM AN ESSENTIAL BASIS OF
-THE BARGAIN BETWEEN THE PARTIES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR
-LIMITATION OF CERTAIN DAMAGES, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO
-YOU, IN WHICH CASE SUCH LIABILITY SHALL BE LIMITED TO THE MAXIMUM EXTENT
-PERMITTED BY APPLICABLE MANDATORY LAW.
-
-
-13. INDEMNIFICATION
-
-13.1 You shall defend, indemnify, and hold harmless the Licensor and the
-Licensor's heirs, successors, and assigns from and against any and all claims,
-demands, actions, suits, proceedings, losses, liabilities, damages, judgments,
-settlements, costs, and expenses (including reasonable attorneys' fees and legal
-costs) arising out of or relating to (a) Your access to or use of the Software;
-(b) Your breach or alleged breach of this Agreement; (c) Your violation of any
-applicable law or of any right of any third party; or (d) any Derivative Work,
-modification, or other material created, distributed, or used by You in
-violation of this Agreement.
-
-
-14. TERM AND TERMINATION
-
-14.1 This Agreement is effective as of the Effective Date and shall continue in
-effect until terminated in accordance with its terms.
-
-14.2 This Agreement and all permissions granted hereunder shall terminate
-automatically and immediately, without notice and without the need for any
-action by the Licensor, upon Your breach of any term or condition of this
-Agreement.
-
-14.3 The Licensor may additionally terminate this Agreement and revoke any and
-all permissions granted hereunder at any time, for any reason or for no reason,
-in the Licensor's sole and absolute discretion, by any reasonable means of
-notice or by ceasing to make the Software available.
-
-
-15. EFFECT OF TERMINATION; SURVIVAL
-
-15.1 Upon any termination or expiration of this Agreement, all permissions
-granted to You hereunder shall immediately cease, and You shall immediately (a)
-cease all access to and use of the Software; and (b) permanently destroy, delete,
-or erase all copies of the Software and of any portion or Derivative Work thereof
-in Your possession, custody, or control, and, upon the Licensor's request,
-certify in writing that You have done so.
-
-15.2 The following provisions shall survive any termination or expiration of this
-Agreement: Sections 1 (Definitions), 3 (Ownership and Title), 4 (Reservation of
-All Rights), 6 (Restrictions on Use), 7 (Confidentiality), 8 (Feedback), 10 (No
-Financial, Investment, Tax, or Legal Advice), 11 (Disclaimer of Warranties), 12
-(Limitation of Liability), 13 (Indemnification), 15 (Effect of Termination), 16
-(Equitable and Injunctive Relief), 18 (Governing Law; Jurisdiction; Venue), and
-20 through 28, together with any other provision that by its nature is intended
-to survive.
-
-
-16. EQUITABLE AND INJUNCTIVE RELIEF
-
-16.1 You acknowledge and agree that any actual or threatened breach of Section 4,
-Section 6, or Section 7 of this Agreement would cause irreparable harm to the
-Licensor for which monetary damages would be an inadequate remedy. Accordingly,
-the Licensor shall be entitled to seek immediate injunctive and other equitable
-relief, without the necessity of posting any bond or other security and without
-the necessity of proving actual damages, in addition to any and all other
-remedies available at law or in equity.
-
-
-17. COMPLIANCE WITH LAWS; EXPORT CONTROL
-
-17.1 You shall comply with all applicable laws, statutes, regulations, and rules
-in connection with Your access to and use of the Software, including without
-limitation all applicable export-control, sanctions, anti-corruption, privacy,
-and data-protection laws. You represent that You are not located in, under the
-control of, or a national or resident of any country or territory, and are not a
-person or entity, in each case to or with whom the provision of the Software is
-prohibited under applicable law.
-
-
-18. GOVERNING LAW; JURISDICTION; VENUE
-
-18.1 This Agreement, and any dispute, claim, or controversy arising out of or
-relating to this Agreement or the Software (whether in contract, tort, or
-otherwise), shall be governed by and construed in accordance with the laws of
-the Republic of India, without giving effect to any choice-of-law or
-conflict-of-law provision or rule that would cause the application of the laws of
-any other jurisdiction.
-
-18.2 The parties irrevocably submit to the exclusive jurisdiction of, and agree
-that exclusive venue shall lie in, the courts of competent jurisdiction located
-in Kolkata, West Bengal, India, and each party waives any objection to such
-jurisdiction or venue, including any objection based on inconvenient forum.
-
-18.3 The United Nations Convention on Contracts for the International Sale of
-Goods shall not apply to this Agreement.
-
-
-19. ASSIGNMENT
-
-19.1 You may not assign, delegate, sublicense, or otherwise transfer this
-Agreement or any of Your rights or obligations hereunder, in whole or in part,
-whether voluntarily, by operation of law, or otherwise, without the prior written
-consent of the Licensor, and any attempted assignment or transfer in violation of
-this Section shall be null and void. The Licensor may freely assign or transfer
-this Agreement, in whole or in part, without restriction and without notice to
-You. Subject to the foregoing, this Agreement shall be binding upon and inure to
-the benefit of the parties and their respective permitted successors and assigns.
-
-
-20. SEVERABILITY
-
-20.1 If any provision of this Agreement is held by a court or tribunal of
-competent jurisdiction to be invalid, illegal, or unenforceable, that provision
-shall be modified, limited, or severed to the minimum extent necessary so that
-the remaining provisions of this Agreement shall continue in full force and
-effect, and the intent of the parties shall be given effect to the greatest
-extent permitted by law.
-
-
-21. NO WAIVER
-
-21.1 No failure or delay by the Licensor in exercising any right, power, or
-remedy under this Agreement shall operate as a waiver thereof, nor shall any
-single or partial exercise of any such right, power, or remedy preclude any
-further or other exercise thereof or the exercise of any other right, power, or
-remedy. No waiver shall be effective unless made in a writing signed by the
-Licensor, and any such waiver shall apply only to the specific instance and for
-the specific purpose for which it is given.
-
-
-22. ENTIRE AGREEMENT
-
-22.1 This Agreement constitutes the entire and complete agreement and
-understanding between You and the Licensor with respect to its subject matter,
-and supersedes and replaces any and all prior or contemporaneous agreements,
-understandings, negotiations, representations, and communications, whether
-written or oral, with respect to such subject matter.
-
-
-23. AMENDMENTS AND MODIFICATIONS
-
-23.1 The Licensor may amend or modify this Agreement at any time by posting a
-revised version with, or making it available in connection with, the Software.
-Any revised version shall be effective with respect to Your continued or
-subsequent access to or use of the Software. No amendment or modification by You
-shall be valid or binding unless made in a writing signed by the Licensor.
-
-
-24. NOTICES
-
-24.1 Any notice to the Licensor under this Agreement shall be in writing and
-shall be deemed duly given when actually received by the Licensor through the
-contact channel identified in Section 28 or through such other channel as the
-Licensor may designate.
-
-
-25. RELATIONSHIP OF THE PARTIES
-
-25.1 The parties are independent contractors. Nothing in this Agreement shall be
-construed to create any partnership, joint venture, agency, fiduciary,
-employment, or similar relationship between the parties, and neither party has
-any authority to bind the other in any respect.
-
-
-26. FORCE MAJEURE
-
-26.1 The Licensor shall not be liable for any delay or failure to perform any
-obligation under this Agreement where such delay or failure results from any
-cause beyond the Licensor's reasonable control, including without limitation
-acts of God, natural disasters, epidemics, pandemics, governmental action, war,
-terrorism, civil unrest, labor disputes, failures of telecommunications or
-utility services, or failures of any Hosting Platform or other third party.
-
-
-27. HEADINGS AND INTERPRETATION
-
-27.1 The headings and captions in this Agreement are for convenience of reference
-only and shall not affect the interpretation or construction of any provision.
-The words "include", "includes", and "including" shall be deemed to be followed
-by the words "without limitation". The singular includes the plural and vice
-versa. This Agreement shall not be construed against either party as the drafter,
-and the rule of contra proferentem shall not apply.
-
-
-28. CONTACT INFORMATION
-
-28.1 All questions, requests for permission, and notices concerning this
-Agreement or the Software should be directed to the Licensor, Indraneel Mandal,
-through the contact facility, issue tracker, or other contact channel made
-available in connection with the source-code repository on or through which the
-Software is made available, or through such other channel as the Licensor may
-from time to time designate.
-
-
-BY ACCESSING, VIEWING, DOWNLOADING, COPYING, INSTALLING, EXECUTING, OR OTHERWISE
-USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ AND UNDERSTOOD THIS
-AGREEMENT AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+================================================================================
+
+7.1  The Software, including its Source Code, structure, and design, embodies
+     valuable trade secrets and confidential information of the Licensor. To the
+     extent any non-public part of the Software or any related non-public
+     information is disclosed or made available to You, You shall hold it in
+     strict confidence, shall not disclose it to any third party, and shall use
+     it solely as expressly permitted by this Agreement.
+
+================================================================================
+8. NO FINANCIAL, INVESTMENT, TAX, OR LEGAL ADVICE
+================================================================================
+
+8.1  The Software is an educational and informational tool only. All Output is
+     generated automatically from the inputs, figures, and assumptions that You
+     choose to enter, and consists of simplified estimates, projections, and
+     illustrations that necessarily rely on those assumptions.
+
+8.2  The Software and its Output do NOT constitute and must NOT be relied upon as
+     financial, investment, accounting, tax, legal, real-estate, actuarial, or
+     other professional advice, and do not constitute a recommendation, offer,
+     solicitation, or endorsement of any financial product, security, strategy,
+     transaction, or decision.
+
+8.3  No fiduciary, advisory, agency, or professional-client relationship is
+     created between You and the Licensor by Your use of the Software. Actual
+     financial outcomes depend on numerous factors and will differ, perhaps
+     materially, from any Output. You should consult a qualified and licensed
+     professional before making any decision that may have financial, legal,
+     tax, or other significant consequences.
+
+8.4  You are solely and exclusively responsible for any and all decisions made
+     and actions taken by You in reliance on the Software or its Output, and the
+     Licensor shall have no liability whatsoever in connection therewith.
+
+================================================================================
+9. PRIVACY AND DATA
+================================================================================
+
+9.1  The Software is designed to operate entirely within Your web browser on
+     Your Authorized Device. The Licensor does not, through the Software,
+     operate any server that collects, receives, stores, or processes the data
+     or inputs that You enter into the Software, and the Licensor does not
+     collect, transmit, sell, or share Your personal information through the
+     Software.
+
+9.2  Any data that You enter may be stored locally on Your Authorized Device
+     (for example, within the local storage of Your browser) solely to provide
+     the functionality of the Software. You are solely responsible for the
+     security, backup, retention, and deletion of any such locally stored data
+     and for the security of Your Authorized Device.
+
+================================================================================
+10. NO WARRANTY; "AS IS"
+================================================================================
+
+10.1 THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND
+     DEFECTS, AND WITHOUT WARRANTY OF ANY KIND. TO THE MAXIMUM EXTENT PERMITTED
+     BY APPLICABLE LAW, THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES,
+     REPRESENTATIONS, AND CONDITIONS OF ANY KIND, WHETHER EXPRESS, IMPLIED,
+     STATUTORY, OR OTHERWISE, INCLUDING WITHOUT LIMITATION ANY IMPLIED
+     WARRANTIES OR CONDITIONS OF MERCHANTABILITY, MERCHANTABLE QUALITY, FITNESS
+     FOR A PARTICULAR PURPOSE, TITLE, ACCURACY, QUIET ENJOYMENT, AND
+     NON-INFRINGEMENT.
+
+10.2 WITHOUT LIMITING THE FOREGOING, THE LICENSOR DOES NOT WARRANT THAT THE
+     SOFTWARE WILL MEET YOUR REQUIREMENTS; THAT THE SOFTWARE OR ITS OUTPUT WILL
+     BE ACCURATE, COMPLETE, RELIABLE, CURRENT, OR ERROR-FREE; THAT THE OPERATION
+     OF THE SOFTWARE WILL BE UNINTERRUPTED OR SECURE; OR THAT ANY DEFECTS WILL BE
+     CORRECTED. THE ENTIRE RISK AS TO THE QUALITY, PERFORMANCE, AND RESULTS OF
+     THE SOFTWARE RESTS WITH YOU.
+
+10.3 No oral or written information or advice given by the Licensor shall create
+     any warranty. Some jurisdictions do not allow the exclusion of certain
+     warranties, so some of the above exclusions may not apply to You; in that
+     event, such warranties are limited to the minimum scope and duration
+     permitted by applicable law.
+
+================================================================================
+11. LIMITATION OF LIABILITY
+================================================================================
+
+11.1 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+     LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,
+     PUNITIVE, OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR FOR ANY LOSS OF PROFITS,
+     REVENUE, SAVINGS, GOODWILL, DATA, OR BUSINESS OPPORTUNITY, OR FOR ANY
+     FINANCIAL OR INVESTMENT LOSS, HOWEVER CAUSED AND UNDER ANY THEORY OF
+     LIABILITY, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT
+     LIABILITY, OR OTHERWISE, ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE
+     USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF THE LICENSOR HAS BEEN
+     ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11.2 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE TOTAL AGGREGATE
+     LIABILITY OF THE LICENSOR ARISING OUT OF OR RELATED TO THIS AGREEMENT AND
+     THE SOFTWARE, FROM ALL CAUSES OF ACTION AND UNDER ALL THEORIES OF LIABILITY
+     COMBINED, SHALL NOT EXCEED THE GREATER OF (A) THE TOTAL AMOUNT ACTUALLY PAID
+     BY YOU TO THE LICENSOR FOR THE SOFTWARE (WHICH, FOR THE AVOIDANCE OF DOUBT,
+     IS ZERO WHERE THE SOFTWARE HAS BEEN PROVIDED TO YOU AT NO CHARGE), OR
+     (B) ONE THOUSAND INDIAN RUPEES (INR 1,000).
+
+11.3 The limitations and exclusions in this Section 11 apply regardless of
+     whether any limited remedy fails of its essential purpose. Some
+     jurisdictions do not allow the exclusion or limitation of certain damages,
+     so some of the above limitations may not apply to You; in that event, the
+     Licensor's liability is limited to the minimum extent permitted by law.
+
+11.4 You acknowledge that the disclaimers and limitations in Sections 10 and 11
+     are a fundamental and essential basis of the bargain between You and the
+     Licensor, and that the Software would not be made available to You absent
+     such disclaimers and limitations.
+
+================================================================================
+12. INDEMNIFICATION
+================================================================================
+
+12.1 You shall defend, indemnify, and hold harmless the Licensor from and
+     against any and all claims, demands, actions, liabilities, losses, damages,
+     judgments, settlements, costs, and expenses (including reasonable
+     attorneys' fees and legal costs) arising out of or related to (a) Your use
+     or misuse of the Software, (b) Your breach or alleged breach of this
+     Agreement, (c) Your violation of any applicable law or of the rights of any
+     third party, or (d) any decision made or action taken by You in reliance on
+     the Software or its Output.
+
+================================================================================
+13. TERM AND TERMINATION
+================================================================================
+
+13.1 This Agreement is effective as of the Effective Date and shall continue in
+     force until terminated in accordance with its terms.
+
+13.2 This Agreement and the license granted herein will terminate automatically
+     and immediately, without notice, if You breach or fail to comply with any
+     term or condition of this Agreement.
+
+13.3 The Licensor may terminate this Agreement and the license granted herein
+     at any time, for any reason or for no reason, with or without notice, in
+     its sole discretion.
+
+13.4 Upon any termination of this Agreement, all rights and licenses granted to
+     You shall immediately cease, and You shall immediately stop all use of the
+     Software and permanently delete and destroy all copies of the Software in
+     Your possession or control, and, upon request, certify in writing to the
+     Licensor that You have done so.
+
+13.5 Termination shall not limit any other rights or remedies available to the
+     Licensor at law or in equity.
+
+================================================================================
+14. SURVIVAL
+================================================================================
+
+14.1 The provisions of this Agreement that by their nature should survive
+     termination shall so survive, including without limitation Sections 1, 2,
+     4, 6, 7, 8, 9, 10, 11, 12, 13.4, 14, and 15.
+
+================================================================================
+15. GENERAL PROVISIONS
+================================================================================
+
+15.1 GOVERNING LAW. This Agreement and any dispute or claim arising out of or in
+     connection with it or its subject matter shall be governed by and construed
+     in accordance with the laws of the Republic of India, without regard to its
+     conflict-of-laws principles. The United Nations Convention on Contracts for
+     the International Sale of Goods shall not apply.
+
+15.2 JURISDICTION. Subject to Section 15.3, the courts of competent jurisdiction
+     located in Kolkata, in the State of West Bengal, India, shall have exclusive
+     jurisdiction over any dispute, controversy, or claim arising out of or
+     relating to this Agreement or the Software, and You irrevocably submit to
+     the personal jurisdiction and venue of such courts and waive any objection
+     to such jurisdiction or venue.
+
+15.3 DISPUTE RESOLUTION. At the Licensor's election, any dispute, controversy, or
+     claim arising out of or relating to this Agreement, including any question
+     regarding its existence, validity, breach, or termination, may be referred
+     to and finally resolved by arbitration administered in accordance with the
+     Arbitration and Conciliation Act, 1996 of India, as amended. The seat and
+     venue of arbitration shall be Kolkata, West Bengal, India; the arbitration
+     shall be conducted by a sole arbitrator appointed by the Licensor; the
+     language of the arbitration shall be English; and the award of the
+     arbitrator shall be final and binding upon the parties.
+
+15.4 INJUNCTIVE RELIEF. You acknowledge that any actual or threatened breach of
+     this Agreement, in particular of Sections 2, 4, or 7, may cause the Licensor
+     immediate and irreparable harm for which monetary damages would be an
+     inadequate remedy. Accordingly, the Licensor shall be entitled to seek
+     injunctive and other equitable relief, without the necessity of posting a
+     bond or proving actual damages, in addition to any other remedies available
+     at law or in equity.
+
+15.5 ASSIGNMENT. You may not assign, delegate, sublicense, or otherwise transfer
+     this Agreement or any of Your rights or obligations under it, whether by
+     operation of law or otherwise, without the prior written consent of the
+     Licensor, and any attempted assignment in violation of this Section is void.
+     The Licensor may freely assign or transfer this Agreement, in whole or in
+     part, without restriction and without notice to You.
+
+15.6 ENTIRE AGREEMENT. This Agreement constitutes the entire and exclusive
+     agreement between You and the Licensor with respect to the Software and
+     supersedes all prior or contemporaneous understandings, communications,
+     proposals, representations, and agreements, whether oral or written,
+     relating to its subject matter.
+
+15.7 AMENDMENTS. No amendment, modification, or waiver of any provision of this
+     Agreement shall be effective unless made in writing by the Licensor. The
+     Licensor reserves the right to provide future versions or Updates of the
+     Software under different or modified license terms.
+
+15.8 SEVERABILITY. If any provision of this Agreement is held by a court or
+     tribunal of competent jurisdiction to be invalid, illegal, or
+     unenforceable, that provision shall be modified to the minimum extent
+     necessary to make it valid and enforceable, or, if it cannot be so
+     modified, shall be severed, and the remaining provisions of this Agreement
+     shall continue in full force and effect.
+
+15.9 WAIVER. No failure or delay by the Licensor in exercising any right, power,
+     or remedy under this Agreement shall operate as a waiver of it, nor shall
+     any single or partial exercise of any right, power, or remedy preclude any
+     further or other exercise of it or of any other right, power, or remedy. Any
+     waiver must be in writing and signed by the Licensor to be effective.
+
+15.10 FORCE MAJEURE. The Licensor shall not be liable for any failure or delay in
+     performance resulting from causes beyond its reasonable control, including
+     without limitation acts of God, natural disasters, epidemics or pandemics,
+     war, terrorism, civil unrest, governmental action, labor disputes, power or
+     internet failures, or failures of third-party services or networks.
+
+15.11 RELATIONSHIP OF THE PARTIES. Nothing in this Agreement shall be construed
+     to create any partnership, joint venture, employment, franchise, or agency
+     relationship between You and the Licensor. Neither party has the authority
+     to bind the other or to incur any obligation on the other's behalf.
+
+15.12 EXPORT AND COMPLIANCE WITH LAW. You shall comply with all applicable laws,
+     regulations, and rules, including any applicable export-control, sanctions,
+     and trade laws, in connection with Your access to and use of the Software.
+
+15.13 NO THIRD-PARTY BENEFICIARIES. This Agreement is for the sole benefit of You
+     and the Licensor and their permitted successors and assigns, and is not
+     intended to and does not confer any rights or remedies upon any other
+     person or entity.
+
+15.14 HEADINGS. The section headings in this Agreement are for convenience of
+     reference only and shall not affect the interpretation or construction of
+     this Agreement.
+
+15.15 NOTICES AND CONTACT. Any notice, request, or other communication to the
+     Licensor under this Agreement may be given through the official Repository
+     from which the Software is distributed, including its issue tracker or the
+     contact details published by the Licensor within that Repository. All
+     notices shall be in the English language.
+
+15.16 ACCEPTANCE. By downloading, copying, cloning, accessing, viewing,
+     installing, executing, running, or otherwise using the Software, You
+     acknowledge and agree that You have read, understood, and accepted this
+     Agreement and that it is enforceable against You as if You had signed it.
+
+================================================================================
 
 Crossroads
 Copyright (c) 2026 Indraneel Mandal. All Rights Reserved.
+
+This software and its source code are the proprietary and confidential property
+of Indraneel Mandal. Unauthorized copying, modification, distribution, public
+display, public performance, or use of this software, in whole or in part, by
+any means or in any form, is strictly prohibited and may result in civil and
+criminal liability.
+
+Author and Owner: Indraneel Mandal
+Year of First Publication: 2026
+Governing Law: Republic of India
+Jurisdiction: Kolkata, West Bengal, India
+
+END OF AGREEMENT
