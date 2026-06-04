@@ -1,43 +1,49 @@
 <!doctype html>
 <!-- Crossroads — Copyright (c) 2026 Indraneel Mandal. All Rights Reserved. -->
-<html lang="en" data-theme="light">
+
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="color-scheme" content="light dark" />
-  <meta name="theme-color" content="#f7f5f1" media="(prefers-color-scheme: light)" />
-  <meta name="theme-color" content="#0c0d10" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#06070b" />
 
-  <title>Crossroads — Compare your big financial decisions, privately</title>
-  <meta name="description" content="Crossroads is a private, client-side simulator for comparing major money decisions — rent vs. buy, debt payoff, job offers, loans, and retirement. Your numbers never leave your browser." />
+  <title>Crossroads — Model your biggest money decisions, privately</title>
+  <meta name="description" content="Crossroads is a private, in-browser studio for modeling life's biggest money decisions — rent vs. buy, debt payoff, job offers, loans, and retirement. Your numbers never leave this device." />
 
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Crossroads — Compare your big financial decisions, privately" />
-  <meta property="og:description" content="A private, client-side simulator for rent vs. buy, debt payoff, job offers, loans, and retirement. 100% private — your numbers never leave this browser." />
+  <meta property="og:title" content="Crossroads — Model your biggest money decisions, privately" />
+  <meta property="og:description" content="A private, in-browser studio for rent vs. buy, debt payoff, job offers, loans, and retirement. 100% private — your numbers never leave this browser." />
   <meta property="og:site_name" content="Crossroads" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Crossroads — Compare your big financial decisions, privately" />
-  <meta name="twitter:description" content="A private, client-side simulator for life's biggest money choices. Your data stays on this device." />
+  <meta name="twitter:title" content="Crossroads — Model your biggest money decisions, privately" />
+  <meta name="twitter:description" content="A private, in-browser studio for life's biggest money choices. Your data stays on this device." />
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%235a54e8'/%3E%3Cpath d='M16 25V15M16 15l-6-6M16 15l6-6' fill='none' stroke='white' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='25' r='2.1' fill='white'/%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%237c79ff'/%3E%3Cpath d='M16 26V14M16 14l-6.5-6.5M16 14l6.5-6.5' fill='none' stroke='%23090a10' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='26' r='2.2' fill='%23090a10'/%3E%3C/svg%3E" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Hanken+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
   <a class="skip-link" href="#view">Skip to content</a>
+
+  <div class="atmosphere" aria-hidden="true">
+    <span class="glow glow-1"></span>
+    <span class="glow glow-2"></span>
+    <span class="glow glow-3"></span>
+  </div>
 
   <header class="app-header" role="banner">
     <a class="brand" href="#dashboard" data-nav="dashboard" aria-label="Crossroads home">
       <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 32 32" width="28" height="28">
-          <rect width="32" height="32" rx="8" fill="currentColor" />
-          <path d="M16 25V15M16 15l-6-6M16 15l6-6" fill="none" stroke="var(--mark-fg)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
-          <circle cx="16" cy="25" r="2.1" fill="var(--mark-fg)" />
+        <svg viewBox="0 0 32 32" width="30" height="30">
+          <rect width="32" height="32" rx="9" fill="url(#bg-grad)" />
+          <path d="M16 26V13M16 13l-6.5-6.5M16 13l6.5-6.5" fill="none" stroke="#07080c" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="16" cy="26" r="2.2" fill="#07080c" />
+          <defs><linearGradient id="bg-grad" x1="0" y1="0" x2="32" y2="32"><stop offset="0" stop-color="#8a87ff"/><stop offset="1" stop-color="#5d5af0"/></linearGradient></defs>
         </svg>
       </span>
       <span class="brand-word">Crossroads</span>
@@ -45,7 +51,7 @@
 
     <span class="privacy-badge" title="All calculations run locally. Nothing is uploaded.">
       <svg viewBox="0 0 16 16" width="13" height="13" aria-hidden="true"><path d="M8 1.5 3 3.5v3.2c0 3 2.1 5.8 5 6.8 2.9-1 5-3.8 5-6.8V3.5L8 1.5Z" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"/><path d="m5.8 8 1.5 1.5L10.4 6" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      <span>100% private — your numbers never leave this browser</span>
+      <span>Private — your numbers never leave this browser</span>
     </span>
 
     <nav class="app-nav" aria-label="Primary">
@@ -60,11 +66,10 @@
     </nav>
 
     <div class="header-actions">
-      <button class="icon-btn theme-toggle" id="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false" title="Toggle theme">
-        <svg class="ico-sun" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"/><g stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M10 1.6v2M10 16.4v2M1.6 10h2M16.4 10h2M4 4l1.4 1.4M14.6 14.6 16 16M16 4l-1.4 1.4M5.4 14.6 4 16"/></g></svg>
-        <svg class="ico-moon" viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M16.5 11.8A6.8 6.8 0 0 1 8.2 3.5a6.8 6.8 0 1 0 8.3 8.3Z" fill="currentColor"/></svg>
+      <button class="icon-btn" id="help-btn" aria-label="How to use Crossroads" title="How to use">
+        <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 7.6a2.2 2.2 0 1 1 3 2.05c-.6.25-.9.6-.9 1.2v.4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="14.2" r="0.9" fill="currentColor"/></svg>
       </button>
-      <button class="icon-btn" data-nav="settings" aria-label="Settings" title="Settings">
+      <button class="icon-btn" id="settings-btn" data-nav="settings" aria-label="Settings" title="Settings">
         <svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true"><path d="M10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 1.8v2.1M10 16.1v2.1M3.6 3.6l1.5 1.5M14.9 14.9l1.5 1.5M1.8 10h2.1M16.1 10h2.1M3.6 16.4l1.5-1.5M14.9 5.1l1.5-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       </button>
     </div>
@@ -81,16 +86,64 @@
       <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M6 3v14M14 3v14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none"/><path d="M3.5 7.5 6 5l2.5 2.5M17 12.5 14.5 15 12 12.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg>
       <span>Compare</span>
     </button>
+    <button class="tab-btn" id="help-btn-m" aria-label="How to use">
+      <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M7.8 7.6a2.2 2.2 0 1 1 3 2.05c-.6.25-.9.6-.9 1.2v.4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="10" cy="14.2" r="0.9" fill="currentColor"/></svg>
+      <span>Guide</span>
+    </button>
     <button class="tab-btn" data-nav="settings">
       <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true"><path d="M10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 1.8v2.1M10 16.1v2.1M3.6 3.6l1.5 1.5M14.9 14.9l1.5 1.5M1.8 10h2.1M16.1 10h2.1M3.6 16.4l1.5-1.5M14.9 5.1l1.5-1.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
       <span>Settings</span>
     </button>
   </nav>
 
+  <div class="wl-root" id="welcome">
+    <canvas class="wl-canvas" id="wl-stars" aria-hidden="true"></canvas>
+    <div class="wl-aurora" aria-hidden="true"></div>
+    <div class="wl-spotlight" id="wl-spotlight" aria-hidden="true"></div>
+    <div class="wl-content">
+      <div class="wl-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" width="52" height="52">
+          <rect width="32" height="32" rx="10" fill="url(#wl-grad)" />
+          <path d="M16 26V13M16 13l-6.5-6.5M16 13l6.5-6.5" fill="none" stroke="#06070b" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" />
+          <circle cx="16" cy="26" r="2.2" fill="#06070b" />
+          <defs><linearGradient id="wl-grad" x1="0" y1="0" x2="32" y2="32"><stop offset="0" stop-color="#8a87ff"/><stop offset="1" stop-color="#5d5af0"/></linearGradient></defs>
+        </svg>
+      </div>
+      <div class="wl-eyebrow">Private financial clarity</div>
+      <h1 class="wl-title">Every big decision,<br /><em>modeled</em> before you make it.</h1>
+      <p class="wl-sub">Rent or buy. Pay off debt fast or slow. This offer or that one. Crossroads runs the real math — privately, on your device.</p>
+
+      <div class="wl-card">
+        <label class="wl-card-label" for="wl-name"><span class="wl-dot"></span>Make it yours</label>
+        <div class="wl-form">
+          <div class="wl-input-wrap">
+            <input class="wl-input" id="wl-name" type="text" placeholder="What should we call you?" maxlength="32" autocomplete="given-name" spellcheck="false" />
+          </div>
+          <button class="wl-btn" id="wl-enter" type="button">
+            <span>Enter Crossroads</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+        </div>
+        <button class="wl-skip" id="wl-skip" type="button">Continue as guest</button>
+      </div>
+
+      <div class="wl-meta">
+        <div class="wl-meta-item"><span class="wl-meta-num">5</span><span class="wl-meta-lbl">Calculators</span></div>
+        <div class="wl-meta-sep"></div>
+        <div class="wl-meta-item"><span class="wl-meta-num">Monte Carlo</span><span class="wl-meta-lbl">Simulation</span></div>
+        <div class="wl-meta-sep"></div>
+        <div class="wl-meta-item"><span class="wl-meta-num">100%</span><span class="wl-meta-lbl">Private</span></div>
+      </div>
+    </div>
+    <div class="wl-footer">
+      <span>Designed &amp; built by <strong>Indraneel Mandal</strong></span>
+      <span class="wl-footer-dot"></span>
+      <span>Crossroads · MMXXVI</span>
+    </div>
+  </div>
+
   <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="false"></div>
-
   <div class="modal-root" id="modal-root" aria-hidden="true"></div>
-
   <input type="file" id="import-file" accept="application/json,.json" hidden />
 
   <script src="script.js" defer></script>
